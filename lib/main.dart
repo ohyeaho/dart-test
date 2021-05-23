@@ -28,4 +28,11 @@ void main() {
   print(equal);
   equal = e == b;
   print(equal);
+
+  var n = 12345;
+  if (n % 2 == 0) {
+    print('${n}は、偶数です。');
+  } else {
+    print('${n}は、奇数です。');
+  }
 }
